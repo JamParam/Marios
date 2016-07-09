@@ -9,12 +9,26 @@ body {
     background-color: white;
 }
 
-/*.page {
-    width: 960px;
-    margin: 0 auto;
-}*/
+header {
+      width: 100%;
+}
 
-header
+.main-nav {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.main-nav-ul {
+    text-align: justify;
+    /*min-width: 200px;*/
+}
+
+.main-nav-ul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
 
 nav
 
@@ -25,28 +39,21 @@ li {
 
 a {
       text-decoration: none;
+      color: black;
 }
 
-.search-bar {
-
-}
 
 .main-nav {
     height: 2.6em;
     background-color: #ffd966;
-
+    width: 100%;
 }
 
 .main-nav ul li {
     padding: 0.6em 1em 0.6em 1em;
-    /*need to work out how to move everything to the left*/
 }
 
-.main-nav ul li:first-child {
-    margin: 0;
-    padding: 0;
-/*how to push the first child to the left?*/
-}
+
 main
 
 .main-info {
