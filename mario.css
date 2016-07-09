@@ -1,0 +1,86 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.55;
+    background-color: white;
+}
+
+/*.page {
+    width: 960px;
+    margin: 0 auto;
+}*/
+
+header
+
+nav
+
+li {
+      list-style-type: none;
+      display: inline-block;
+}
+
+a {
+      text-decoration: none;
+}
+
+.search-bar {
+
+}
+
+.main-nav {
+    height: 2.6em;
+    background-color: #ffd966;
+
+}
+
+.main-nav ul li {
+    padding: 0.6em 1em 0.6em 1em;
+    /*need to work out how to move everything to the left*/
+}
+
+.main-nav ul li:first-child {
+    margin: 0;
+    padding: 0;
+/*how to push the first child to the left?*/
+}
+main
+
+.main-info {
+   overflow: hidden;
+   margin-top: 3em;
+}
+
+img {
+    padding-left: 2em;
+    float: left;
+    margin: 2em;
+    margin-left: 0em;
+    margin-top: 0.4em;
+    padding-right: 1em;
+
+}
+
+section {
+    padding-left: 7em;
+    /* may need it's own container*/
+}
+
+footer {
+    clear: both;
+    background-color:  #ffd966;
+}
+
+.bottom {
+    display: inline-block;
+    padding: 1em;
+    margin: 0em;
+    /*height: 2.6em;*/ /*need to work out how to get the right height*/
+}
+
+#priv {
+    float: right;
+}
