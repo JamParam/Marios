@@ -51,11 +51,13 @@ main
 
 img {
     float: left;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 40px 10px 0px;
 }
 
 section {
-    float: right;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    /*Why do pixels have different values in different sections? how do i use ems?"*/
 }
 
 footer {
