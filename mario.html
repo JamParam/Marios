@@ -1,50 +1,58 @@
 <!DOCTYPE html>
-  <html lang="en">
-   <head>
-    <meta charset="utf-8">
-    <title>Mario's Fruit Market</title>
-    <link rel="stylesheet" type="text/css" href="mario.css">
-   </head>
-   <body>
-    <div class="page">
-    <header>
-     <div class="fruit-header">
-      <div class="logo">
-       <h1>Mario's</h1>
-       <h2>Fruit Market</h2>
-      </div>
-      <nav class="search-bar">
-        <ul>
-          <li><a class="search" href="search.html">Search</a></li>
-          <li><a class="search" href="login.html">Login</a></li>
-        </ul>
-      </nav>
-     </div>
-     <nav class="main-nav">
-       <ul class="main-nav-ul">
-        <li><a href="mario's.html">Why Mario's?</a></li>
-        <li><a href="mario's.html">Fruit Blog</a></li>
-        <li><a href="mario's.html">Shop Online</a></li>
-        <li><a href="mario's.html">Contact us</a></li>
-        <li><a href="mario's.html">Our service</a></li>
-        <li><a href="mario's.html">Locations</a></li>
-      </ul>
-     </nav>
-    </header>
-    <main>
-     <div class="main-info">
-      <img src="fruit-shop.jpg" class="try" alt="fruit shop" height="360em">
-      <section class="try">
-            <!-- Is using an article tag here the right use of HTML?-->
-       <h3 class="organic-fruit">Organic fruit and vegetables delivered with a big smile</h3>
-       <p class="quality">At Mario’s, we believe in the quality of our produce and the excellence of our service. Our organic fruit and vegetables are nurtured by Victorian farmers, delivered early each morning to our market, and from us to your door. No pesticides, residues or chemical-based fertilisers are used to produce our fruit or vegetables, and this is evident in their taste, texture and quality. We strive to provide the best service as well, with our friendly deliverers and shop staff. With Mario’s, you will always be satisfied.</p>
-     </section>
-     </div>
-    </main>
-   <footer>
-    <p class="bottom" id="copy">  &copy;Mario’s fruit market | All rights reserved</p>
-    <p class="bottom" id="priv">Privacy Policy</p>
-   </footer>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mario&rsquo;s Fruit Market</title>
+  <link rel="stylesheet" href="mario.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+     <h1>Mario&rsquo;s</h1>
+     <h2>Fruit Market</h2>
+    </div>
+
+    <nav class="search-bar">
+      <form action="https://google.com/?q=" method="POST">
+        <p>
+          <label for="searchInput">Search for:</label>
+          <input id="searchInput" name="searchInput" type="text" placeholder="e.g. Apples, Bananas, etc.">
+        </p>
+        <button type="submit">Search</button>
+      </form>
+
+      <a class="search" href="login.html">Login</a>
+    </nav>
+
+   <nav class="main-nav">
+     <a href="mario's.html">Why Mario&rsquo;s?</a>
+     <a href="mario's.html">Fruit Blog</a>
+     <a href="mario's.html">Shop Online</a>
+     <a href="mario's.html">Contact us</a>
+     <a href="mario's.html">Our service</a>
+     <a href="mario's.html">Locations</a>
+   </nav>
+  </header>
+
+  <main>
+   <div class="main-info">
+    <img src="fruit-shop.jpg" alt="stacks of fruit at a fruit shop">
+
+    <section>
+     <h3>Organic fruit and vegetables delivered with a big smile</h3>
+     <p>At Mario&rsquo;s, we believe in the quality of our produce and the excellence of our service. Our organic fruit and vegetables are nurtured by Victorian farmers, delivered early each morning to our market, and from us to your door. No pesticides, residues or chemical-based fertilisers are used to produce our fruit or vegetables, and this is evident in their taste, texture and quality. We strive to provide the best service as well, with our friendly deliverers and shop staff. With Mario&rsquo;s, you will always be satisfied.</p>
+   </section>
    </div>
-   </body>
-  </html>
+  </main>
+
+  <footer class="footer clearfix">
+    <div class="wrapper">
+      <p class="float-left">&copy;Mario&rsquo;s fruit market. All rights reserved</p>
+      <p class="float-right">
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

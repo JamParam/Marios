@@ -11,6 +11,7 @@ body {
 
 header {
       width: 100%;
+      background-image: url("fruit-header.jpeg")
 }
 
 .main-nav {
@@ -30,8 +31,6 @@ header {
     width: 100%;
 }
 
-nav
-
 li {
     list-style-type: none;
     display: inline-block;
@@ -42,8 +41,6 @@ a {
     color: black;
 }
 
-main
-
 .main-info {
     max-width: 960px;
     margin: 0 auto;
@@ -52,6 +49,7 @@ main
 img {
     float: left;
     margin: 10px 40px 10px 0px;
+    height: 22em;
 }
 
 section {
@@ -59,19 +57,46 @@ section {
     margin-bottom: 150px;
     /*Why do pixels have different values in different sections? how do i use ems?"*/
 }
-
+/*
 footer {
     clear: both;
     background-color:  #ffd966;
 }
 
-.bottom {
-    display: inline-block;
-    padding: 1em;
-    margin: 0em;
-    /*height: 2.6em;*/ /*need to work out how to get the right height*/
-}
 
 #priv {
     float: right;
+}*/
+
+.wrapper {
+  max-width: 60em; /* 960/16 */
+  margin: 0 auto;
+}
+
+/* FIXES BROKEN BOX MODEL WHEN CHILDREN FLOAT*/
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both
+}
+
+/* FOOTER */
+.footer {
+  background-color: #ffd966;
+  color: inherit;
+  border: 1px solid red;
+}
+
+.float-left {
+  float: left;
+  border: 1px solid blue;
+}
+
+.float-right {
+  float: right;
+  border: 1px solid green;
 }
