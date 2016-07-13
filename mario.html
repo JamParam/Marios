@@ -3,35 +3,40 @@
 <head>
   <meta charset="utf-8">
   <title>Mario&rsquo;s Fruit Market</title>
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="mario.css">
 </head>
 
-<body>
-  <header>
+<body class="page">
+  <header class="main-header">
+    <div class="wrapper">
     <div class="logo">
      <h1>Mario&rsquo;s</h1>
      <h2>Fruit Market</h2>
     </div>
 
-    <nav class="search-bar">
-      <form action="https://google.com/?q=" method="POST">
-        <p>
-          <label for="searchInput">Search for:</label>
-          <input id="searchInput" name="searchInput" type="text" placeholder="e.g. Apples, Bananas, etc.">
-        </p>
-        <button type="submit">Search</button>
-      </form>
+      <nav class="search-bar float-right">
+        <form action="https://google.com/?q=" method="POST">
+          <p>
+            <label for="searchInput">Search for:</label>
+            <input id="searchInput" name="searchInput" type="text" placeholder="e.g. Apples, Bananas, etc.">
+          </p>
+          <button class="float-right" type="submit">Search</button>
+        </form>
 
-      <a class="search" href="login.html">Login</a>
-    </nav>
+        <a class="search float-right" href="login.html">Login</a>
+      </nav>
+    </div>
 
    <nav class="main-nav">
-     <a href="mario's.html">Why Mario&rsquo;s?</a>
-     <a href="mario's.html">Fruit Blog</a>
-     <a href="mario's.html">Shop Online</a>
-     <a href="mario's.html">Contact us</a>
-     <a href="mario's.html">Our service</a>
-     <a href="mario's.html">Locations</a>
+     <div class="wrapper">
+       <a class="nav-buttons" href="mario's.html">Why Mario&rsquo;s?</a>
+       <a class="nav-buttons" href="mario's.html">Fruit Blog</a>
+       <a class="nav-buttons" href="mario's.html">Shop Online</a>
+       <a class="nav-buttons" href="mario's.html">Contact us</a>
+       <a class="nav-buttons" href="mario's.html">Our service</a>
+       <a class="nav-buttons" href="mario's.html">Locations</a>
+    </div>
    </nav>
   </header>
 

@@ -2,38 +2,68 @@ html {
     min-height: 100%;
 }
 
-body {
+.page {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 100%;
     line-height: 1.55;
     background-color: white;
 }
 
-header {
-      width: 100%;
-      background-image: url("fruit-header.jpeg")
+.main-header {
+    width: 100%;
+    background-image: url("fruit-header.jpeg")
 }
 
+.wrapper {
+    position: relative;
+    max-width: 60em; /* 960/16 */
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    margin: 0;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.logo {
+    width: 8.8em;
+    padding: 1.7em 0.5em 1.9em 0.5em;
+    margin-bottom: 1.5em;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+.search-bar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
 .main-nav {
-    max-width: 960px;
     margin: 0 auto;
     background-color: #ffd966;
 }
 
-.main-nav-ul {
-    text-align: justify;
-    /*min-width: 200px;*/
+.nav-buttons {
+    margin: 2.83em;
 }
 
-.main-nav-ul:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
+.nav-buttons:first-child {
+    margin-left: 0em;
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
+.nav-buttons:last-child {
+    margin-right: 0em;
 }
 
 a {
@@ -57,21 +87,8 @@ section {
     margin-bottom: 150px;
     /*Why do pixels have different values in different sections? how do i use ems?"*/
 }
-/*
-footer {
-    clear: both;
-    background-color:  #ffd966;
-}
 
 
-#priv {
-    float: right;
-}*/
-
-.wrapper {
-  max-width: 60em; /* 960/16 */
-  margin: 0 auto;
-}
 
 /* FIXES BROKEN BOX MODEL WHEN CHILDREN FLOAT*/
 .clearfix:after,
@@ -88,15 +105,12 @@ footer {
 .footer {
   background-color: #ffd966;
   color: inherit;
-  border: 1px solid red;
 }
 
 .float-left {
   float: left;
-  border: 1px solid blue;
 }
 
 .float-right {
   float: right;
-  border: 1px solid green;
 }
