@@ -1,3 +1,12 @@
+/* Still to do:
+1. Move the image and section into the vertical centre
+2. Move the search button to the right of the search bar
+3. Take submit button off
+4. Move log in button
+Note: ?Can only do search form without button if you use JS
+*/
+
+
 html {
     min-height: 100%;
 }
