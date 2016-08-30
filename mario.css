@@ -1,8 +1,7 @@
 /* Still to do:
 1. Move the image and section into the vertical centre
-2. Move the search button to the right of the search bar
-3. Take submit button off
-4. Move log in button
+2. Take submit button off or change it to say search
+3. Align login and search forms
 Note: ?Can only do search form without button if you use JS
 */
 
@@ -52,16 +51,15 @@ h2 {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
+form {
+    display: inline-block;
+}
+
 .search-login {
-    min-width: 10em;
+    min-width: 20em;
     position: absolute;
     top: 0em;
     right: 0em;
-}
-
-.search-bar {
-    display: inline-block;
-    float: left;
 }
 
 .search-button {
@@ -87,7 +85,7 @@ label {
 }
 
 .nav-buttons {
-    margin: 2.83em;
+    margin: 2.86em;
 }
 
 .nav-buttons:first-child {
@@ -96,9 +94,6 @@ label {
 
 .nav-buttons:last-child {
     margin-right: 0em;
-    padding-right: 0em;
-    border-right: 0em;
-
 }
 
 a {
