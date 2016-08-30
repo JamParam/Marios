@@ -53,7 +53,7 @@ h2 {
 }
 
 .search-login {
-    min-width: 20em;
+    min-width: 10em;
     position: absolute;
     top: 0em;
     right: 0em;
@@ -96,6 +96,9 @@ label {
 
 .nav-buttons:last-child {
     margin-right: 0em;
+    padding-right: 0em;
+    border-right: 0em;
+
 }
 
 a {
