@@ -1,7 +1,5 @@
 /* Still to do:
 1. Move the image and section into the vertical centre
-2. Take submit button off or change it to say search
-3. Align login and search forms
 Note: ?Can only do search form without button if you use JS
 */
 
@@ -48,7 +46,7 @@ h2 {
     width: 8.8em;
     padding: 1.7em 0.5em 1.9em 0.5em;
     margin-bottom: 1.5em;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.80);
 }
 
 form {
@@ -68,9 +66,19 @@ form {
 }
 
 .button {
-    background-color: rgba(255, 255, 255, 0.75)
-    border: 1em solid black;
+    background-color: rgba(255, 255, 255, 0.80);
     width: 5em;
+    padding: 0.2em;
+    border: none;
+    margin-top: 0.5em;
+}
+
+.search-form {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 15em;
+    padding: 0.2em;
+    border: none;
+    margin-top: 0.5em;
 }
 
 label {
@@ -104,19 +112,20 @@ a {
 .main-info {
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
 }
 
 img {
     float: left;
-    margin: 10px 40px 10px 0px;
+    margin: 10px 40px 10px 0px; /*change this to ems */
     height: 24em;
 }
 
-section {
+/*section {
     margin-top: 100px;
     margin-bottom: 150px;
-    /*Why do pixels have different values in different sections? how do i use ems?"*/
-}
+} */
 
 /* FIXES BROKEN BOX MODEL WHEN CHILDREN FLOAT*/
 .clearfix:after,
