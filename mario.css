@@ -1,5 +1,6 @@
 /* Still to do:
 1. Move the image and section into the vertical centre
+2. Search bar doesn't work anymore (without having the search button)
 Note: ?Can only do search form without button if you use JS
 */
 
@@ -13,7 +14,10 @@ html {
     font-size: 100%;
     line-height: 1.55;
     background-color: white;
+    position: relative;
 }
+
+
 
 .main-header {
     background-image: url("fruit-header.jpeg");
@@ -68,7 +72,7 @@ form {
 .button {
     background-color: rgba(255, 255, 255, 0.80);
     width: 5em;
-    padding: 0.2em;
+    padding: 0.4em;
     border: none;
     margin-top: 0.5em;
 }
@@ -114,6 +118,7 @@ a {
     margin: 0 auto;
     margin-top: 6em;
     margin-bottom: 6em;
+    postion: absolute;
 }
 
 img {
