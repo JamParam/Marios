@@ -1,9 +1,6 @@
 /* Still to do:
 1. Move the image and section into the vertical centre
-2. Search bar doesn't work anymore (without having the search button)
-Note: ?Can only do search form without button if you use JS
 */
-
 
 html {
     min-height: 100%;
